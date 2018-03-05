@@ -87,6 +87,23 @@ div.table-responsive > div.dataTables_wrapper > div.row > div[class^="col-"]:fir
 	padding-right: 0;
 }
 
+table.table-bordered.dataTable th:last-child, table.table-bordered.dataTable th:last-child, table.table-bordered.dataTable td:last-child, table.table-bordered.dataTable td:last-child{
+	border-right-width: 1px;
+	border-left-width: 0px;
+}
+
+.modal-header .close{
+	margin: -1rem auto -1rem -1rem;
+	float: left;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -206,14 +223,3 @@ th {
 	padding-right: 0px;
 }
 
-.card-header-reverse-floating-item {
-	float: left;
-}
-
-.card-footer-floating-item {
-	float: right;
-}
-
-.card-footer-reverse-floating-item {
-	float: left;
-}
