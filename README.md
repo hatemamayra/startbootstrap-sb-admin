@@ -1,12 +1,12 @@
-# [Start Bootstrap - SB Admin](https://startbootstrap.com/template-overviews/sb-admin/)
+# [Start Bootstrap - SB Admin - RTL](https://startbootstrap.com/template-overviews/sb-admin/)
 
 [SB Admin](http://startbootstrap.com/template-overviews/sb-admin/) is an open source, admin dashboard template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
 ## Preview
 
-[![SB Admin Preview](https://startbootstrap.com/assets/img/templates/sb-admin.jpg)](https://blackrockdigital.github.io/startbootstrap-sb-admin/)
+[![SB Admin Preview](https://startbootstrap-sb-admin-rtl.herokuapp.com/template-overview/index-page.png)](https://startbootstrap-sb-admin-rtl.herokuapp.com/index-rtl.html)
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-sb-admin/)**
+**[View Live Preview](https://startbootstrap-sb-admin-rtl.herokuapp.com/index-rtl.html)**
 
 ## Status
 
@@ -18,11 +18,10 @@
 
 ## Download and Installation
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/sb-admin/)
-* Install via npm: `npm i startbootstrap-sb-admin`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-sb-admin.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-sb-admin)
+To begin using this template:
+
+* Clone the repo: `git clone https://github.com/hatemamayra/startbootstrap-sb-admin.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/hatemamayra/startbootstrap-sb-admin)
 
 ## Usage
 
