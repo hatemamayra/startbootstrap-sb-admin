@@ -1,0 +1,225 @@
+/**
+rtl specific things
+**/
+html {
+	direction: rtl !important;
+}
+
+body{
+	text-align: right;
+}
+
+.input-group > .input-group-append > .btn, .input-group > .input-group-append > .input-group-text, .input-group > .input-group-prepend:first-child > .btn:not(:first-child), .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child), .input-group > .input-group-prepend:not(:first-child) > .btn, .input-group > .input-group-prepend:not(:first-child) > .input-group-text{
+	border-radius: .25rem;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.input-group > .custom-select:not(:last-child), .input-group > .form-control:not(:last-child){
+	border-radius: .25rem;
+	border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#mainNav .navbar-collapse .navbar-nav > .nav-item.dropdown > .nav-link .indicator{
+	left: auto;
+	right: 21px;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+content: "\\";
+}
+
+#sidenavToggler i:before {
+	font: normal normal normal 14px/1 FontAwesome;
+	content: "\f105";
+}
+
+
+.list-inline{
+padding-left: initial;
+padding-right: 0px;
+}
+
+
+
+
+table.dataTable thead .sorting::before, table.dataTable thead .sorting_asc::before, table.dataTable thead .sorting_desc::before, table.dataTable thead .sorting_asc_disabled::before, table.dataTable thead .sorting_desc_disabled::before{
+	right: auto;
+	left: 1em;
+}
+
+table.dataTable thead .sorting::after, table.dataTable thead .sorting_asc::after, table.dataTable thead .sorting_desc::after, table.dataTable thead .sorting_asc_disabled::after, table.dataTable thead .sorting_desc_disabled::after {
+	right: auto;
+	left: 0.5em;
+}
+
+div.table-responsive > div.dataTables_wrapper > div.row > div[class^="col-"]:last-child{
+	padding-left: 0px;
+	padding-right: initial;
+}
+
+div.dataTables_wrapper div.dataTables_filter{
+	text-align: left;
+}
+
+div.dataTables_wrapper div.dataTables_filter input{
+	margin-left: 0px;
+	margin-right: 0.5em;
+}
+
+.page-item:first-child .page-link{
+	margin-right: 0;
+	border-top-right-radius: .25rem;
+	border-bottom-right-radius: .25rem;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.page-item:last-child .page-link{
+	border-top-left-radius: .25rem;
+	border-bottom-left-radius: .25rem;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+div.table-responsive > div.dataTables_wrapper > div.row > div[class^="col-"]:first-child{
+	padding-left: initial;
+	padding-right: 0;
+}
+
+table.table-bordered.dataTable th:last-child, table.table-bordered.dataTable th:last-child, table.table-bordered.dataTable td:last-child, table.table-bordered.dataTable td:last-child{
+	border-right-width: 1px;
+	border-left-width: 0px;
+}
+
+.modal-header .close{
+	margin: -1rem auto -1rem -1rem;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#mainNav .navbar-collapse .navbar-sidenav {
+	left: auto !important;
+	right: 0px !important;
+}
+
+#mainNav.fixed-top .sidenav-toggler {
+	left: auto !important;
+	right: 0px !important;
+}
+
+@Media ( min-width :992px) {
+	.content-wrapper {
+		margin-left: 0px !important;
+		margin-right: 250px !important;
+	}
+	body.sidenav-toggled .content-wrapper {
+		margin-left: 0px !important;
+		margin-right: 55px !important;
+	}
+	#mainNav .navbar-collapse .navbar-sidenav>.nav-item .sidenav-second-level>li>a
+		{
+		padding-right: 2.75em;
+	}
+	.navbar-expand-lg .navbar-nav .dropdown-menu {
+		left: 0px;
+		right: auto;
+	}
+	footer.sticky-footer {
+		right: auto !important;
+		left: 0px !important;
+	}
+}
+
+#mainNav .navbar-collapse .navbar-nav>.nav-item.dropdown>.nav-link::after
+	{
+	float: left;
+	content: '\f104';
+}
+
+.dropdown-menu {
+	text-align: right;
+}
+
+.dropdown-toggle::after {
+	margin-right: .255em;
+}
+
+#mainNav .navbar-collapse .navbar-sidenav .nav-link-collapse.collapsed::after
+	{
+	content: '\f104';
+}
+
+#mainNav .navbar-collapse .navbar-sidenav .nav-link-collapse::after {
+	float: left;
+	content: '\f107';
+}
+
+.navbar-nav {
+	padding-right: 0px;
+}
+
+#mainNav .navbar-collapse .navbar-sidenav .sidenav-second-level,
+	#mainNav .navbar-collapse .navbar-sidenav .sidenav-third-level {
+	padding-right: 0px;
+}
+
+#mainNav .navbar-collapse .navbar-sidenav .sidenav-second-level>li>a {
+	padding-right: 1em;
+}
+
+
+.card-body-icon {
+	left: -25px;
+	right: auto;
+	-webkit-transform: rotate(-15deg);
+	-ms-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+.breadcrumb-item {
+	float: right;
+}
+
+th {
+	text-align: right;
+}
+
+.form-check-label {
+	padding-right: 1.25rem;
+}
+
+.form-check-input {
+	margin-right: -1.25rem;
+	margin-left: 0px;
+}
+
+.modal-footer>:nth-child(n) {
+	margin-right: 0.25rem;
+	margin-left: 0.25rem;
+}
+
+.modal-footer>:first-child {
+	margin-right: 0px;
+}
+
+.modal-footer>:last-child {
+	margin-left: 0px;
+}
+
+.card-header-tabs {
+	padding-right: 0px;
+}
+
